@@ -3,8 +3,8 @@ package me.ryanhamshire.GPFlags;
 import com.google.common.io.Files;
 import me.ryanhamshire.GPFlags.flags.FlagDefinition;
 import me.ryanhamshire.GPFlags.util.MessagingUtil;
-import me.ryanhamshire.GriefPrevention.Claim;
 import me.ryanhamshire.GriefPrevention.GriefPrevention;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.OfflinePlayer;
@@ -81,7 +81,7 @@ public class FlagManager {
     /**
      * Set a flag for a claim. This is called on startup to load the datastore and when setting a flag to a value including false
      *
-     * @param claimId  ID of {@link Claim} which this flag will be attached to
+     * @param claimId  ID of {@link me.ryanhamshire.GriefPrevention.objects.Claim} which this flag will be attached to
      * @param def      Flag definition to set
      * @param isActive Whether the flag will be active or not
      * @param args     Message parameters

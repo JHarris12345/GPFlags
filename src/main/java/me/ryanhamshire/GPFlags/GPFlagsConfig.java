@@ -8,8 +8,8 @@ import me.ryanhamshire.GPFlags.commands.CommandBuySubclaim;
 import me.ryanhamshire.GPFlags.flags.*;
 import me.ryanhamshire.GPFlags.util.MessagingUtil;
 import me.ryanhamshire.GPFlags.util.Util;
-import me.ryanhamshire.GriefPrevention.Claim;
 import me.ryanhamshire.GriefPrevention.GriefPrevention;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -224,13 +224,6 @@ public class GPFlagsConfig {
             }
             //if failed, we just won't have those flags available
             catch (NoClassDefFoundError ignore) {}
-
-            // EliteMob flags
-            try {
-                if (Bukkit.getPluginManager().getPlugin("EliteMobs") != null) {
-                    this.flagManager.registerFlagDefinition(new FlagDef_NoEliteMobSpawns(this.flagManager, plugin));
-                }
-            } catch (NoClassDefFoundError ignored) {}
 
             // vault-reliant flags
             try {

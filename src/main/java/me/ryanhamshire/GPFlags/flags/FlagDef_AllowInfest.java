@@ -1,7 +1,7 @@
 package me.ryanhamshire.GPFlags.flags;
 
 import me.ryanhamshire.GPFlags.*;
-import me.ryanhamshire.GriefPrevention.Claim;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Silverfish;
 import org.bukkit.event.EventHandler;

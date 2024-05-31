@@ -2,8 +2,8 @@ package me.ryanhamshire.GPFlags.commands;
 
 import me.ryanhamshire.GPFlags.*;
 import me.ryanhamshire.GPFlags.util.MessagingUtil;
-import me.ryanhamshire.GriefPrevention.Claim;
-import me.ryanhamshire.GriefPrevention.ClaimPermission;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
+import me.ryanhamshire.GriefPrevention.objects.enums.ClaimPermission;
 import me.ryanhamshire.GriefPrevention.GriefPrevention;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

@@ -4,7 +4,7 @@ package me.ryanhamshire.GPFlags.listener;
 import me.ryanhamshire.GPFlags.Flag;
 import me.ryanhamshire.GPFlags.GPFlags;
 import me.ryanhamshire.GPFlags.WorldSettings;
-import me.ryanhamshire.GriefPrevention.Claim;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import me.ryanhamshire.GriefPrevention.events.ClaimTransferEvent;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

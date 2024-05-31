@@ -5,6 +5,7 @@ import me.ryanhamshire.GPFlags.FlagManager;
 import me.ryanhamshire.GPFlags.GPFlags;
 import me.ryanhamshire.GPFlags.MessageSpecifier;
 import me.ryanhamshire.GPFlags.Messages;
+import me.ryanhamshire.GPFlags.flags.FlagDefinition;
 import me.ryanhamshire.GriefPrevention.events.ClaimExpirationEvent;
 import org.bukkit.Location;
 import org.bukkit.event.EventHandler;

@@ -2,10 +2,10 @@ package me.ryanhamshire.GPFlags.util;
 
 import me.ryanhamshire.GPFlags.*;
 import me.ryanhamshire.GPFlags.flags.FlagDefinition;
-import me.ryanhamshire.GriefPrevention.Claim;
-import me.ryanhamshire.GriefPrevention.ClaimPermission;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import me.ryanhamshire.GriefPrevention.GriefPrevention;
-import me.ryanhamshire.GriefPrevention.PlayerData;
+import me.ryanhamshire.GriefPrevention.objects.PlayerData;
+import me.ryanhamshire.GriefPrevention.objects.enums.ClaimPermission;
 import org.bukkit.*;
 import org.bukkit.block.Biome;
 import org.bukkit.block.Block;

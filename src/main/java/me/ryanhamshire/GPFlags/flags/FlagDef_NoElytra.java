@@ -2,7 +2,7 @@ package me.ryanhamshire.GPFlags.flags;
 
 import me.ryanhamshire.GPFlags.*;
 import me.ryanhamshire.GPFlags.util.Util;
-import me.ryanhamshire.GriefPrevention.Claim;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import me.ryanhamshire.GriefPrevention.GriefPrevention;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;

@@ -1,9 +1,8 @@
 package me.ryanhamshire.GPFlags.flags;
 
 import me.ryanhamshire.GPFlags.*;
-import me.ryanhamshire.GPFlags.hooks.MythicMobsHook;
-import me.ryanhamshire.GriefPrevention.Claim;
-import me.ryanhamshire.GriefPrevention.ClaimPermission;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
+import me.ryanhamshire.GriefPrevention.objects.enums.ClaimPermission;
 import me.ryanhamshire.GriefPrevention.GriefPrevention;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -34,7 +33,6 @@ public class FlagDef_ProtectNamedMobs extends FlagDefinition {
         if (eType == EntityType.ARMOR_STAND) return;
         if (eType == EntityType.ITEM_FRAME) return;
         if (eType == EntityType.GLOW_ITEM_FRAME) return;
-        if (MythicMobsHook.isMythicMob(entity)) return;
 
         Entity damager = event.getDamager();
         if (damager.getType() != EntityType.PLAYER) {

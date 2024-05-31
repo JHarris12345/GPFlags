@@ -3,7 +3,7 @@ package me.ryanhamshire.GPFlags.listener;
 import me.ryanhamshire.GPFlags.event.PlayerPostClaimBorderEvent;
 import me.ryanhamshire.GPFlags.event.PlayerPreClaimBorderEvent;
 import me.ryanhamshire.GPFlags.util.Util;
-import me.ryanhamshire.GriefPrevention.Claim;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import me.ryanhamshire.GriefPrevention.events.ClaimResizeEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

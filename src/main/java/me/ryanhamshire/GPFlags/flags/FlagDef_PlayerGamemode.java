@@ -10,7 +10,7 @@ import me.ryanhamshire.GPFlags.SetFlagResult;
 import me.ryanhamshire.GPFlags.TextMode;
 import me.ryanhamshire.GPFlags.WorldSettings;
 import me.ryanhamshire.GPFlags.util.MessagingUtil;
-import me.ryanhamshire.GriefPrevention.Claim;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.Material;

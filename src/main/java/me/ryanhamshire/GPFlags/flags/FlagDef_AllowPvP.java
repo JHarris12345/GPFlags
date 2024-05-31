@@ -35,7 +35,7 @@ import me.ryanhamshire.GPFlags.Messages;
 import me.ryanhamshire.GPFlags.TextMode;
 import me.ryanhamshire.GPFlags.WorldSettings;
 
-import me.ryanhamshire.GriefPrevention.Claim;
+import me.ryanhamshire.GriefPrevention.objects.Claim;
 import me.ryanhamshire.GriefPrevention.events.PreventPvPEvent;
 
 public class FlagDef_AllowPvP extends PlayerMovementFlagDefinition {
