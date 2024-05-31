@@ -109,8 +109,9 @@ public class FlightManager implements Listener {
         return true;
     }
 
+    // We don't want any flags that manage flight and this just fucks it up
     public static void managePlayerFlight(Player player, Location location) {
-        boolean manageFlight = gpfManagesFlight(player);
+        /*boolean manageFlight = gpfManagesFlight(player);
         if (!allowedEntry(player, location)) return;
 
         // If you could already fly
@@ -154,7 +155,7 @@ public class FlightManager implements Listener {
             if (FlagDef_PermissionFly.letPlayerFly(player, location)) {
                 turnOnFlight(player);
             }
-        }
+        }*/
     }
 
     private static void turnOffFlight(Player player) {
